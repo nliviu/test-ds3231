@@ -1,0 +1,391 @@
+Handling lib "ds3231"...
+Handling lib "rpc-uart"...
+Handling lib "mjs"...
+Handling lib "zz_boards"...
+Handling lib "core"...
+Handling lib "rpc-service-config"...
+Handling lib "ca-bundle"...
+Handling lib "rpc-service-fs"...
+core: Checking out master...
+rpc-service-fs: Checking out master...
+ds3231: Checking out master...
+rpc-service-fs: Pulling...
+rpc-service-config: Checking out master...
+rpc-uart: Checking out master...
+core: Done, hash 59c87f88c83bd03a59223d5b18aa0b21595b32d3
+core: Hash is updated: f3c4b2b68367300d05cdbf3348793f5be621b37d -> 59c87f88c83bd03a59223d5b18aa0b21595b32d3
+boards: Checking out master...
+rpc-service-config: Pulling...
+rpc-uart: Pulling...
+ds3231: Done, hash 8c15922d5e958d46367cfda497032d2ecdf3622d
+core: Prepared local dir: "/home/liviu/.mos/libs/core"
+ca-bundle: Checking out master...
+Handling lib "mongoose"...
+Handling lib "vfs-dev-part"...
+Handling lib "vfs-fs-spiffs"...
+ds3231: Hash unchanged at 8c15922d5e958d46367cfda497032d2ecdf3622d (dir "/home/liviu/.mos/libs/ds3231")
+ds3231: Prepared local dir: "/home/liviu/.mos/libs/ds3231"
+ca-bundle: Pulling...
+Handling lib "i2c"...
+mjs: Checking out master...
+boards: Done, hash 330b5a11c850d11281257159b26aabad93844a63
+zz_boards: Hash unchanged at 330b5a11c850d11281257159b26aabad93844a63 (dir "/home/liviu/.mos/libs/boards")
+zz_boards: Prepared local dir: "/home/liviu/.mos/libs/boards"
+mjs: Done, hash 9a39cbc3faf126320e6eb41298995da3810ea3f7
+mjs: Hash unchanged at 9a39cbc3faf126320e6eb41298995da3810ea3f7 (dir "/home/liviu/.mos/libs/mjs")
+mjs: Prepared local dir: "/home/liviu/.mos/libs/mjs"
+mongoose: Checking out master...
+mongoose: Pulling...
+vfs-dev-part: Checking out master...
+vfs-fs-spiffs: Checking out master...
+vfs-dev-part: Pulling...
+vfs-fs-spiffs: Pulling...
+i2c: Checking out master...
+i2c: Pulling...
+rpc-uart: Done, hash 7f5e9a3cd30408c001eb12ed86ca144d73481187
+rpc-uart: Hash unchanged at 7f5e9a3cd30408c001eb12ed86ca144d73481187 (dir "/home/liviu/.mos/libs/rpc-uart")
+rpc-uart: Prepared local dir: "/home/liviu/.mos/libs/rpc-uart"
+Handling lib "rpc-common"...
+rpc-common: Checking out master...
+rpc-common: Pulling...
+rpc-service-config: Done, hash 40c15f0cea28bc77b1ab7ce946a18720d7165030
+rpc-service-config: Hash unchanged at 40c15f0cea28bc77b1ab7ce946a18720d7165030 (dir "/home/liviu/.mos/libs/rpc-service-config")
+rpc-service-config: Prepared local dir: "/home/liviu/.mos/libs/rpc-service-config"
+rpc-service-fs: Done, hash 424e462ffd50d841b9eea70209db8e85465e2e23
+rpc-service-fs: Hash unchanged at 424e462ffd50d841b9eea70209db8e85465e2e23 (dir "/home/liviu/.mos/libs/rpc-service-fs")
+rpc-service-fs: Prepared local dir: "/home/liviu/.mos/libs/rpc-service-fs"
+mongoose: Done, hash 55f8b6f99c5f25e509d09c966bf9edc916d98add
+mongoose: Hash unchanged at 55f8b6f99c5f25e509d09c966bf9edc916d98add (dir "/home/liviu/.mos/libs/mongoose")
+mongoose: Prepared local dir: "/home/liviu/.mos/libs/mongoose"
+Handling lib "mbedtls"...
+Handling lib "vfs-common"...
+vfs-fs-spiffs: Done, hash 860d312f7b5a04ee2ab450712b0c33ff9366b523
+vfs-fs-spiffs: Hash unchanged at 860d312f7b5a04ee2ab450712b0c33ff9366b523 (dir "/home/liviu/.mos/libs/vfs-fs-spiffs")
+vfs-fs-spiffs: Prepared local dir: "/home/liviu/.mos/libs/vfs-fs-spiffs"
+vfs-dev-part: Done, hash 5a7aadd66bfcee7c4391120fc6636f20272bda0a
+vfs-dev-part: Hash unchanged at 5a7aadd66bfcee7c4391120fc6636f20272bda0a (dir "/home/liviu/.mos/libs/vfs-dev-part")
+vfs-dev-part: Prepared local dir: "/home/liviu/.mos/libs/vfs-dev-part"
+vfs-common: Checking out master...
+mbedtls: Checking out master...
+vfs-common: Pulling...
+mbedtls: Pulling...
+ca-bundle: Done, hash 125bff6448aef7999d401ee6202962b72b489f46
+ca-bundle: Hash unchanged at 125bff6448aef7999d401ee6202962b72b489f46 (dir "/home/liviu/.mos/libs/ca-bundle")
+ca-bundle: Prepared local dir: "/home/liviu/.mos/libs/ca-bundle"
+i2c: Done, hash 825d359dc969ac28821222ec9b98be3504d8ba0c
+i2c: Hash unchanged at 825d359dc969ac28821222ec9b98be3504d8ba0c (dir "/home/liviu/.mos/libs/i2c")
+i2c: Prepared local dir: "/home/liviu/.mos/libs/i2c"
+rpc-common: Done, hash bae7658dd155094d5f3d1f6a91522febe7cfc988
+rpc-common: Hash unchanged at bae7658dd155094d5f3d1f6a91522febe7cfc988 (dir "/home/liviu/.mos/libs/rpc-common")
+rpc-common: Prepared local dir: "/home/liviu/.mos/libs/rpc-common"
+vfs-common: Done, hash 40c5b7e4285e69d17806dfb83f3f75ccfc949083
+vfs-common: Hash is updated: 07a12aaf6d193643f9f0b2411b4bdfb972d95dbe -> 40c5b7e4285e69d17806dfb83f3f75ccfc949083
+mbedtls: Done, hash ff6ad88bea13854e655e83c5a30d99157299ddb0
+vfs-common: Prepared local dir: "/home/liviu/.mos/libs/vfs-common"
+mbedtls: Hash unchanged at ff6ad88bea13854e655e83c5a30d99157299ddb0 (dir "/home/liviu/.mos/libs/mbedtls")
+mbedtls: Prepared local dir: "/home/liviu/.mos/libs/mbedtls"
+Handling lib "atca"...
+atca: Checking out master...
+atca: Pulling...
+atca: Done, hash df2bbaf0d1279ab104459bbadf1477daf4b39e08
+atca: Hash unchanged at df2bbaf0d1279ab104459bbadf1477daf4b39e08 (dir "/home/liviu/.mos/libs/atca")
+atca: Prepared local dir: "/home/liviu/.mos/libs/atca"
+The flag --module is not given for the module "mjs_module", going to use the repository
+mjs: Checking out master...
+mjs: Done, hash 399137a49aaf92d9239df5a4cf0b4ca931242245
+The flag --repo is not given, going to use mongoose-os repository
+mongoose-os: Does not exist, cloning from "https://github.com/cesanta/mongoose-os"...
+mongoose-os: Checking out master...
+mongoose-os: Done, hash b87de6bc5b6baebda6bb5dc864882d031fa2515e
+Prebuilt binary for "mbedtls" already exists at "/home/liviu/.mos/libs/mbedtls/lib/esp8266/libmbedtls.a"
+Prebuilt binary for "mongoose" already exists at "/home/liviu/.mos/libs/mongoose/lib/esp8266/libmongoose.a"
+Sources: [/home/liviu/mos/test-ds3231/src/main.c /home/liviu/mos/test-ds3231/build/gen/mgos_deps_init.c /home/liviu/.mos/libs/i2c/src/mgos_i2c.c /home/liviu/.mos/libs/i2c/src/common_gpio/mgos_i2c_gpio.c /home/liviu/.mos/libs/atca/src/mgos_atca.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_cfgs.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_command.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_device.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_iface.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic/atca_basic.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic/atca_helpers.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/host/atca_host.c /home/liviu/.mos/libs/vfs-common/src/mgos_vfs.c /home/liviu/.mos/libs/vfs-common/src/mgos_vfs_dev.c /home/liviu/.mos/libs/vfs-common/src/mgos_vfs_internal.c /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_flash_writer.c /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_fs.c /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c /home/liviu/.mos/libs/vfs-dev-part/src/mgos_vfs_dev_part.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_cache.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_check.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_gc.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c /home/liviu/.mos/libs/core/src/mgos_core.c /home/liviu/.mos/libs/core/src/esp8266/esp_rboot.c /home/liviu/.mos/libs/ds3231/src/mgos_ds3231.c /home/liviu/.mos/libs/mjs/src/mos_mjs.c /home/liviu/.mos/modules/mjs/mjs.c /home/liviu/.mos/libs/mjs/esp8266/src/esp8266_mjs.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /home/liviu/.mos/libs/rpc-common/src/mgos_rpc.c /home/liviu/.mos/libs/rpc-service-config/src/mgos_service_config.c /home/liviu/.mos/libs/rpc-service-fs/src/mgos_service_filesystem.c /home/liviu/.mos/libs/rpc-uart/src/mgos_rpc_channel_uart.c]
+Include dirs: [/home/liviu/.mos/libs/i2c/include /home/liviu/.mos/libs/atca/include /home/liviu/.mos/libs/atca/cryptoauthlib/lib /home/liviu/.mos/libs/mbedtls/include /home/liviu/.mos/libs/mbedtls/include/esp8266 /home/liviu/.mos/libs/mbedtls/mbedtls/include /home/liviu/.mos/libs/vfs-common/include /home/liviu/.mos/libs/vfs-common/include/esp8266 /home/liviu/.mos/libs/mongoose/include /home/liviu/.mos/libs/vfs-dev-part/include /home/liviu/.mos/libs/vfs-fs-spiffs/include /home/liviu/.mos/libs/vfs-fs-spiffs/include/spiffs /home/liviu/.mos/libs/vfs-fs-spiffs/include/esp8266 /home/liviu/.mos/libs/core/include /home/liviu/.mos/libs/core/include/esp8266 /home/liviu/.mos/libs/ds3231/include /home/liviu/.mos/libs/mjs/include /home/liviu/.mos/libs/rpc-common/include/mg_rpc /home/liviu/.mos/libs/rpc-common/include /home/liviu/.mos/libs/rpc-service-config/include /home/liviu/.mos/libs/rpc-service-fs/include /home/liviu/.mos/libs/rpc-uart/include]
+Binary libs: [/home/liviu/.mos/libs/mbedtls/lib/esp8266/libmbedtls.a /home/liviu/.mos/libs/mongoose/lib/esp8266/libmongoose.a]
+Building...
+mount from "/home/liviu/mos/test-ds3231" to "/app"
+mount from "/home/liviu/.mos/modules/mongoose-os" to "/mongoose-os"
+mount from "/home/liviu/.mos/modules/mongoose-os" to "/home/liviu/.mos/modules/mongoose-os"
+mount from "/home/liviu/mos/test-ds3231/build" to "/home/liviu/mos/test-ds3231/build"
+mount from "/home/liviu/mos/test-ds3231/src" to "/home/liviu/mos/test-ds3231/src"
+mount from "/home/liviu/mos/test-ds3231/build/gen" to "/home/liviu/mos/test-ds3231/build/gen"
+mount from "/home/liviu/.mos/libs/i2c/src" to "/home/liviu/.mos/libs/i2c/src"
+mount from "/home/liviu/.mos/libs/i2c/src/common_gpio" to "/home/liviu/.mos/libs/i2c/src/common_gpio"
+mount from "/home/liviu/.mos/libs/atca/src" to "/home/liviu/.mos/libs/atca/src"
+mount from "/home/liviu/.mos/libs/atca/cryptoauthlib/lib" to "/home/liviu/.mos/libs/atca/cryptoauthlib/lib"
+mount from "/home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic" to "/home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic"
+mount from "/home/liviu/.mos/libs/atca/cryptoauthlib/lib/crypto" to "/home/liviu/.mos/libs/atca/cryptoauthlib/lib/crypto"
+mount from "/home/liviu/.mos/libs/atca/cryptoauthlib/lib/hal" to "/home/liviu/.mos/libs/atca/cryptoauthlib/lib/hal"
+mount from "/home/liviu/.mos/libs/atca/cryptoauthlib/lib/host" to "/home/liviu/.mos/libs/atca/cryptoauthlib/lib/host"
+mount from "/home/liviu/.mos/libs/vfs-common/src" to "/home/liviu/.mos/libs/vfs-common/src"
+mount from "/home/liviu/.mos/libs/vfs-common/src/esp8266" to "/home/liviu/.mos/libs/vfs-common/src/esp8266"
+mount from "/home/liviu/.mos/libs/vfs-dev-part/src" to "/home/liviu/.mos/libs/vfs-dev-part/src"
+mount from "/home/liviu/.mos/libs/vfs-fs-spiffs/src" to "/home/liviu/.mos/libs/vfs-fs-spiffs/src"
+mount from "/home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs" to "/home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs"
+mount from "/home/liviu/.mos/libs/core/src" to "/home/liviu/.mos/libs/core/src"
+mount from "/home/liviu/.mos/libs/core/src/esp8266" to "/home/liviu/.mos/libs/core/src/esp8266"
+mount from "/home/liviu/.mos/libs/ds3231/src" to "/home/liviu/.mos/libs/ds3231/src"
+mount from "/home/liviu/.mos/libs/mjs/src" to "/home/liviu/.mos/libs/mjs/src"
+mount from "/home/liviu/.mos/modules/mjs" to "/home/liviu/.mos/modules/mjs"
+mount from "/home/liviu/.mos/libs/mjs/esp8266/src" to "/home/liviu/.mos/libs/mjs/esp8266/src"
+mount from "/home/liviu/.mos/libs/rpc-common/src/mg_rpc" to "/home/liviu/.mos/libs/rpc-common/src/mg_rpc"
+mount from "/home/liviu/.mos/libs/rpc-common/src" to "/home/liviu/.mos/libs/rpc-common/src"
+mount from "/home/liviu/.mos/libs/rpc-service-config/src" to "/home/liviu/.mos/libs/rpc-service-config/src"
+mount from "/home/liviu/.mos/libs/rpc-service-fs/src" to "/home/liviu/.mos/libs/rpc-service-fs/src"
+mount from "/home/liviu/.mos/libs/rpc-uart/src" to "/home/liviu/.mos/libs/rpc-uart/src"
+mount from "/home/liviu/.mos/libs/i2c/include" to "/home/liviu/.mos/libs/i2c/include"
+mount from "/home/liviu/.mos/libs/atca/include" to "/home/liviu/.mos/libs/atca/include"
+mount from "/home/liviu/.mos/libs/atca/cryptoauthlib/lib" to "/home/liviu/.mos/libs/atca/cryptoauthlib/lib"
+mount from "/home/liviu/.mos/libs/mbedtls/include" to "/home/liviu/.mos/libs/mbedtls/include"
+mount from "/home/liviu/.mos/libs/mbedtls/include/esp8266" to "/home/liviu/.mos/libs/mbedtls/include/esp8266"
+mount from "/home/liviu/.mos/libs/mbedtls/mbedtls/include" to "/home/liviu/.mos/libs/mbedtls/mbedtls/include"
+mount from "/home/liviu/.mos/libs/vfs-common/include" to "/home/liviu/.mos/libs/vfs-common/include"
+mount from "/home/liviu/.mos/libs/vfs-common/include/esp8266" to "/home/liviu/.mos/libs/vfs-common/include/esp8266"
+mount from "/home/liviu/.mos/libs/mongoose/include" to "/home/liviu/.mos/libs/mongoose/include"
+mount from "/home/liviu/.mos/libs/vfs-dev-part/include" to "/home/liviu/.mos/libs/vfs-dev-part/include"
+mount from "/home/liviu/.mos/libs/vfs-fs-spiffs/include" to "/home/liviu/.mos/libs/vfs-fs-spiffs/include"
+mount from "/home/liviu/.mos/libs/vfs-fs-spiffs/include/spiffs" to "/home/liviu/.mos/libs/vfs-fs-spiffs/include/spiffs"
+mount from "/home/liviu/.mos/libs/vfs-fs-spiffs/include/esp8266" to "/home/liviu/.mos/libs/vfs-fs-spiffs/include/esp8266"
+mount from "/home/liviu/.mos/libs/core/include" to "/home/liviu/.mos/libs/core/include"
+mount from "/home/liviu/.mos/libs/core/include/esp8266" to "/home/liviu/.mos/libs/core/include/esp8266"
+mount from "/home/liviu/.mos/libs/ds3231/include" to "/home/liviu/.mos/libs/ds3231/include"
+mount from "/home/liviu/.mos/libs/mjs/include" to "/home/liviu/.mos/libs/mjs/include"
+mount from "/home/liviu/.mos/libs/rpc-common/include/mg_rpc" to "/home/liviu/.mos/libs/rpc-common/include/mg_rpc"
+mount from "/home/liviu/.mos/libs/rpc-common/include" to "/home/liviu/.mos/libs/rpc-common/include"
+mount from "/home/liviu/.mos/libs/rpc-service-config/include" to "/home/liviu/.mos/libs/rpc-service-config/include"
+mount from "/home/liviu/.mos/libs/rpc-service-fs/include" to "/home/liviu/.mos/libs/rpc-service-fs/include"
+mount from "/home/liviu/.mos/libs/rpc-uart/include" to "/home/liviu/.mos/libs/rpc-uart/include"
+mount from "/home/liviu/.mos/libs/ca-bundle/fs" to "/home/liviu/.mos/libs/ca-bundle/fs"
+mount from "/home/liviu/.mos/libs/mjs/fs" to "/home/liviu/.mos/libs/mjs/fs"
+mount from "/home/liviu/.mos/modules/mjs/mjs/lib" to "/home/liviu/.mos/modules/mjs/mjs/lib"
+mount from "/home/liviu/.mos/libs/i2c/mjs_fs" to "/home/liviu/.mos/libs/i2c/mjs_fs"
+mount from "/home/liviu/.mos/libs/ds3231/mjs_fs" to "/home/liviu/.mos/libs/ds3231/mjs_fs"
+mount from "/home/liviu/.mos/libs/rpc-common/mjs_fs" to "/home/liviu/.mos/libs/rpc-common/mjs_fs"
+mount from "/home/liviu/.mos/libs/mjs/esp8266/fs" to "/home/liviu/.mos/libs/mjs/esp8266/fs"
+mount from "/home/liviu/mos/test-ds3231/fs" to "/home/liviu/mos/test-ds3231/fs"
+mount from "/home/liviu/.mos/libs/mbedtls/lib/esp8266" to "/home/liviu/.mos/libs/mbedtls/lib/esp8266"
+mount from "/home/liviu/.mos/libs/mongoose/lib/esp8266" to "/home/liviu/.mos/libs/mongoose/lib/esp8266"
+mount from "/home/liviu/mos/test-ds3231/build/gen" to "/home/liviu/mos/test-ds3231/build/gen"
+Docker arguments: run --name mos_build_2018-10-03T09-31-08-00_562901723 --rm -i -v /home/liviu/.mos/libs/mjs/fs:/home/liviu/.mos/libs/mjs/fs -v /home/liviu/mos/test-ds3231/fs:/home/liviu/mos/test-ds3231/fs -v /home/liviu/.mos/libs/vfs-common/include:/home/liviu/.mos/libs/vfs-common/include -v /home/liviu/.mos/libs/vfs-dev-part/include:/home/liviu/.mos/libs/vfs-dev-part/include -v /home/liviu/.mos/libs/vfs-fs-spiffs/include:/home/liviu/.mos/libs/vfs-fs-spiffs/include -v /home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic:/home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic -v /home/liviu/.mos/libs/atca/cryptoauthlib/lib/crypto:/home/liviu/.mos/libs/atca/cryptoauthlib/lib/crypto -v /home/liviu/.mos/libs/atca/cryptoauthlib/lib/hal:/home/liviu/.mos/libs/atca/cryptoauthlib/lib/hal -v /home/liviu/.mos/libs/rpc-uart/src:/home/liviu/.mos/libs/rpc-uart/src -v /home/liviu/.mos/libs/ds3231/include:/home/liviu/.mos/libs/ds3231/include -v /home/liviu/.mos/modules/mongoose-os:/mongoose-os -v /home/liviu/mos/test-ds3231/src:/home/liviu/mos/test-ds3231/src -v /home/liviu/.mos/libs/i2c/src:/home/liviu/.mos/libs/i2c/src -v /home/liviu/.mos/libs/atca/cryptoauthlib/lib:/home/liviu/.mos/libs/atca/cryptoauthlib/lib -v /home/liviu/.mos/libs/i2c/include:/home/liviu/.mos/libs/i2c/include -v /home/liviu/.mos/libs/vfs-fs-spiffs/include/esp8266:/home/liviu/.mos/libs/vfs-fs-spiffs/include/esp8266 -v /home/liviu/.mos/libs/vfs-common/src/esp8266:/home/liviu/.mos/libs/vfs-common/src/esp8266 -v /home/liviu/.mos/libs/mjs/src:/home/liviu/.mos/libs/mjs/src -v /home/liviu/.mos/libs/mjs/esp8266/src:/home/liviu/.mos/libs/mjs/esp8266/src -v /home/liviu/.mos/libs/i2c/mjs_fs:/home/liviu/.mos/libs/i2c/mjs_fs -v /home/liviu/.mos/libs/ds3231/mjs_fs:/home/liviu/.mos/libs/ds3231/mjs_fs -v /home/liviu/.mos/libs/rpc-common/mjs_fs:/home/liviu/.mos/libs/rpc-common/mjs_fs -v /home/liviu/.mos/libs/i2c/src/common_gpio:/home/liviu/.mos/libs/i2c/src/common_gpio -v /home/liviu/.mos/libs/core/src:/home/liviu/.mos/libs/core/src -v /home/liviu/.mos/libs/vfs-common/include/esp8266:/home/liviu/.mos/libs/vfs-common/include/esp8266 -v /home/liviu/.mos/libs/rpc-service-config/src:/home/liviu/.mos/libs/rpc-service-config/src -v /home/liviu/.mos/libs/vfs-common/src:/home/liviu/.mos/libs/vfs-common/src -v /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs:/home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs -v /home/liviu/.mos/libs/core/src/esp8266:/home/liviu/.mos/libs/core/src/esp8266 -v /home/liviu/.mos/modules/mongoose-os:/home/liviu/.mos/modules/mongoose-os -v /home/liviu/.mos/libs/atca/cryptoauthlib/lib/host:/home/liviu/.mos/libs/atca/cryptoauthlib/lib/host -v /home/liviu/mos/test-ds3231/build:/home/liviu/mos/test-ds3231/build -v /home/liviu/.mos/libs/atca/src:/home/liviu/.mos/libs/atca/src -v /home/liviu/.mos/libs/vfs-fs-spiffs/include/spiffs:/home/liviu/.mos/libs/vfs-fs-spiffs/include/spiffs -v /home/liviu/.mos/libs/rpc-common/src:/home/liviu/.mos/libs/rpc-common/src -v /home/liviu/.mos/libs/mbedtls/mbedtls/include:/home/liviu/.mos/libs/mbedtls/mbedtls/include -v /home/liviu/.mos/libs/rpc-common/include/mg_rpc:/home/liviu/.mos/libs/rpc-common/include/mg_rpc -v /home/liviu/.mos/libs/mjs/esp8266/fs:/home/liviu/.mos/libs/mjs/esp8266/fs -v /home/liviu/mos/test-ds3231/build/gen:/home/liviu/mos/test-ds3231/build/gen -v /home/liviu/.mos/modules/mjs:/home/liviu/.mos/modules/mjs -v /home/liviu/.mos/libs/rpc-common/src/mg_rpc:/home/liviu/.mos/libs/rpc-common/src/mg_rpc -v /home/liviu/.mos/libs/rpc-service-fs/src:/home/liviu/.mos/libs/rpc-service-fs/src -v /home/liviu/.mos/libs/rpc-common/include:/home/liviu/.mos/libs/rpc-common/include -v /home/liviu/.mos/libs/rpc-service-fs/include:/home/liviu/.mos/libs/rpc-service-fs/include -v /home/liviu/.mos/libs/rpc-uart/include:/home/liviu/.mos/libs/rpc-uart/include -v /home/liviu/mos/test-ds3231:/app -v /home/liviu/.mos/libs/vfs-fs-spiffs/src:/home/liviu/.mos/libs/vfs-fs-spiffs/src -v /home/liviu/.mos/libs/mbedtls/include:/home/liviu/.mos/libs/mbedtls/include -v /home/liviu/.mos/libs/mbedtls/include/esp8266:/home/liviu/.mos/libs/mbedtls/include/esp8266 -v /home/liviu/.mos/libs/ca-bundle/fs:/home/liviu/.mos/libs/ca-bundle/fs -v /home/liviu/.mos/libs/mongoose/lib/esp8266:/home/liviu/.mos/libs/mongoose/lib/esp8266 -v /home/liviu/.mos/libs/core/include/esp8266:/home/liviu/.mos/libs/core/include/esp8266 -v /home/liviu/.mos/libs/mjs/include:/home/liviu/.mos/libs/mjs/include -v /home/liviu/.mos/libs/mbedtls/lib/esp8266:/home/liviu/.mos/libs/mbedtls/lib/esp8266 -v /home/liviu/.mos/libs/vfs-dev-part/src:/home/liviu/.mos/libs/vfs-dev-part/src -v /home/liviu/.mos/libs/atca/include:/home/liviu/.mos/libs/atca/include -v /home/liviu/.mos/libs/core/include:/home/liviu/.mos/libs/core/include -v /home/liviu/.mos/libs/mongoose/include:/home/liviu/.mos/libs/mongoose/include -v /home/liviu/.mos/libs/rpc-service-config/include:/home/liviu/.mos/libs/rpc-service-config/include -v /home/liviu/.mos/modules/mjs/mjs/lib:/home/liviu/.mos/modules/mjs/mjs/lib -v /home/liviu/.mos/libs/ds3231/src:/home/liviu/.mos/libs/ds3231/src --user 1000:1000 docker.io/mgos/esp8266-build:2.2.1-1.5.0-r4 /bin/bash -c nice make '-j' '4' '-C' '/app' '-f' '/mongoose-os/fw/platforms/esp8266/Makefile.build' 'all' 'APP=test-ds3231' 'APP_BIN_LIBS=/home/liviu/.mos/libs/mbedtls/lib/esp8266/libmbedtls.a /home/liviu/.mos/libs/mongoose/lib/esp8266/libmongoose.a' 'APP_CFLAGS=-DMBEDTLS_ECP_ATCA=1 -DMBEDTLS_X509_CA_CHAIN_ON_DISK=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_ATCA=1 -DMGOS_HAVE_CA_BUNDLE=1 -DMGOS_HAVE_CORE=1 -DMGOS_HAVE_DS3231=1 -DMGOS_HAVE_I2C=1 -DMGOS_HAVE_MBEDTLS=1 -DMGOS_HAVE_MJS=1 -DMGOS_HAVE_MONGOOSE=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_VFS_COMMON=1 -DMGOS_HAVE_VFS_DEV_PART=1 -DMGOS_HAVE_VFS_FS_SPIFFS=1 -DMGOS_HAVE_ZZ_BOARDS=1 -DMG_ENABLE_DNS=1 -DMG_ENABLE_DNS_SERVER=1 -DMG_ENABLE_MQTT=1 -DMG_ENABLE_SNTP=1 -DMG_ENABLE_SSL=1 -DMG_SSL_IF=MG_SSL_IF_MBEDTLS -DMG_SSL_IF_MBEDTLS_FREE_CERTS=1 -DMG_SSL_IF_MBEDTLS_MAX_FRAG_LEN=1024' 'APP_CONF_SCHEMA=/home/liviu/mos/test-ds3231/build/gen/mos_conf_schema.yml' 'APP_CXXFLAGS=-DMBEDTLS_ECP_ATCA=1 -DMBEDTLS_X509_CA_CHAIN_ON_DISK=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_ATCA=1 -DMGOS_HAVE_CA_BUNDLE=1 -DMGOS_HAVE_CORE=1 -DMGOS_HAVE_DS3231=1 -DMGOS_HAVE_I2C=1 -DMGOS_HAVE_MBEDTLS=1 -DMGOS_HAVE_MJS=1 -DMGOS_HAVE_MONGOOSE=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_VFS_COMMON=1 -DMGOS_HAVE_VFS_DEV_PART=1 -DMGOS_HAVE_VFS_FS_SPIFFS=1 -DMGOS_HAVE_ZZ_BOARDS=1 -DMG_ENABLE_DNS=1 -DMG_ENABLE_DNS_SERVER=1 -DMG_ENABLE_MQTT=1 -DMG_ENABLE_SNTP=1 -DMG_ENABLE_SSL=1 -DMG_SSL_IF=MG_SSL_IF_MBEDTLS -DMG_SSL_IF_MBEDTLS_FREE_CERTS=1 -DMG_SSL_IF_MBEDTLS_MAX_FRAG_LEN=1024' 'APP_FS_FILES=/home/liviu/.mos/libs/ca-bundle/fs/ca.pem /home/liviu/.mos/libs/mjs/fs/api_bitbang.js /home/liviu/.mos/libs/mjs/fs/api_config.js /home/liviu/.mos/libs/mjs/fs/api_events.js /home/liviu/.mos/libs/mjs/fs/api_gpio.js /home/liviu/.mos/libs/mjs/fs/api_grove.js /home/liviu/.mos/libs/mjs/fs/api_http.js /home/liviu/.mos/libs/mjs/fs/api_log.js /home/liviu/.mos/libs/mjs/fs/api_net.js /home/liviu/.mos/libs/mjs/fs/api_sys.js /home/liviu/.mos/libs/mjs/fs/api_timer.js /home/liviu/.mos/libs/mjs/fs/api_uart.js /home/liviu/.mos/libs/mjs/fs/init.js /home/liviu/.mos/modules/mjs/mjs/lib/api_dataview.js /home/liviu/.mos/modules/mjs/mjs/lib/api_file.js /home/liviu/.mos/modules/mjs/mjs/lib/api_math.js /home/liviu/.mos/libs/i2c/mjs_fs/api_i2c.js /home/liviu/.mos/libs/ds3231/mjs_fs/api_ds3231.js /home/liviu/.mos/libs/rpc-common/mjs_fs/api_rpc.js /home/liviu/.mos/libs/mjs/esp8266/fs/api_arch_uart.js /home/liviu/.mos/libs/mjs/esp8266/fs/api_esp8266.js /home/liviu/mos/test-ds3231/fs/init.js' 'APP_INCLUDES=/home/liviu/.mos/libs/i2c/include /home/liviu/.mos/libs/atca/include /home/liviu/.mos/libs/atca/cryptoauthlib/lib /home/liviu/.mos/libs/mbedtls/include /home/liviu/.mos/libs/mbedtls/include/esp8266 /home/liviu/.mos/libs/mbedtls/mbedtls/include /home/liviu/.mos/libs/vfs-common/include /home/liviu/.mos/libs/vfs-common/include/esp8266 /home/liviu/.mos/libs/mongoose/include /home/liviu/.mos/libs/vfs-dev-part/include /home/liviu/.mos/libs/vfs-fs-spiffs/include /home/liviu/.mos/libs/vfs-fs-spiffs/include/spiffs /home/liviu/.mos/libs/vfs-fs-spiffs/include/esp8266 /home/liviu/.mos/libs/core/include /home/liviu/.mos/libs/core/include/esp8266 /home/liviu/.mos/libs/ds3231/include /home/liviu/.mos/libs/mjs/include /home/liviu/.mos/libs/rpc-common/include/mg_rpc /home/liviu/.mos/libs/rpc-common/include /home/liviu/.mos/libs/rpc-service-config/include /home/liviu/.mos/libs/rpc-service-fs/include /home/liviu/.mos/libs/rpc-uart/include' 'APP_SOURCES=/home/liviu/mos/test-ds3231/src/main.c /home/liviu/mos/test-ds3231/build/gen/mgos_deps_init.c /home/liviu/.mos/libs/i2c/src/mgos_i2c.c /home/liviu/.mos/libs/i2c/src/common_gpio/mgos_i2c_gpio.c /home/liviu/.mos/libs/atca/src/mgos_atca.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_cfgs.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_command.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_device.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_iface.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic/atca_basic.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic/atca_helpers.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/host/atca_host.c /home/liviu/.mos/libs/vfs-common/src/mgos_vfs.c /home/liviu/.mos/libs/vfs-common/src/mgos_vfs_dev.c /home/liviu/.mos/libs/vfs-common/src/mgos_vfs_internal.c /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_flash_writer.c /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_fs.c /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c /home/liviu/.mos/libs/vfs-dev-part/src/mgos_vfs_dev_part.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_cache.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_check.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_gc.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c /home/liviu/.mos/libs/core/src/mgos_core.c /home/liviu/.mos/libs/core/src/esp8266/esp_rboot.c /home/liviu/.mos/libs/ds3231/src/mgos_ds3231.c /home/liviu/.mos/libs/mjs/src/mos_mjs.c /home/liviu/.mos/modules/mjs/mjs.c /home/liviu/.mos/libs/mjs/esp8266/src/esp8266_mjs.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /home/liviu/.mos/libs/rpc-common/src/mgos_rpc.c /home/liviu/.mos/libs/rpc-service-config/src/mgos_service_config.c /home/liviu/.mos/libs/rpc-service-fs/src/mgos_service_filesystem.c /home/liviu/.mos/libs/rpc-uart/src/mgos_rpc_channel_uart.c' 'APP_VERSION=1.0' 'BOARD=' 'BUILD_DIR=/home/liviu/mos/test-ds3231/build/objs' 'FFI_SYMBOLS=' 'FS_STAGING_DIR=/home/liviu/mos/test-ds3231/build/fs' 'FW_DIR=/home/liviu/mos/test-ds3231/build/fw' 'GEN_DIR=/home/liviu/mos/test-ds3231/build/gen' 'MANIFEST_FINAL=/home/liviu/mos/test-ds3231/build/gen/mos_final.yml' 'MGOS_ENABLE_I2C_GPIO=1' 'MGOS_HAVE_ATCA=1' 'MGOS_HAVE_CA_BUNDLE=1' 'MGOS_HAVE_CORE=1' 'MGOS_HAVE_DS3231=1' 'MGOS_HAVE_I2C=1' 'MGOS_HAVE_MBEDTLS=1' 'MGOS_HAVE_MJS=1' 'MGOS_HAVE_MONGOOSE=1' 'MGOS_HAVE_RPC_COMMON=1' 'MGOS_HAVE_RPC_SERVICE_CONFIG=1' 'MGOS_HAVE_RPC_SERVICE_FS=1' 'MGOS_HAVE_RPC_UART=1' 'MGOS_HAVE_VFS_COMMON=1' 'MGOS_HAVE_VFS_DEV_PART=1' 'MGOS_HAVE_VFS_FS_SPIFFS=1' 'MGOS_HAVE_ZZ_BOARDS=1' 'MGOS_PATH=/mongoose-os' 'PLATFORM=esp8266'
+make: Entering directory '/app'
+  MKDIR /home/liviu/mos/test-ds3231/build/fw
+  MKDIR /home/liviu/mos/test-ds3231/build/objs
+  MKDIR /home/liviu/mos/test-ds3231/build/objs/fw_temp
+  GEN   /home/liviu/mos/test-ds3231/build/gen/mgos_config.c
+  GEN   /home/liviu/mos/test-ds3231/build/gen/mgos_ro_vars.c
+CC esptool2.c
+gcc -O2 -Wall -c esptool2.c -o /home/liviu/mos/test-ds3231/build/objs/esptool2.o
+CC esptool2_elf.c
+gcc -O2 -Wall -c esptool2_elf.c -o /home/liviu/mos/test-ds3231/build/objs/esptool2_elf.o
+  GEN   /home/liviu/mos/test-ds3231/build/gen/ffi_exports.c
+make[1]: Entering directory '/app'
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+  CC    ./src/netif/etharp.c
+  CC    ./src/core/mem.c
+  CC    ./src/core/dhcp.c
+  CC    ./src/core/sys_arch.c
+  GEN   /mongoose-os/fw/platforms/esp8266/ld/non_os.ld (0xffff0 @ 0x40200010) -> /home/liviu/mos/test-ds3231/build/gen/0x100000.ld
+  CC    ./src/core/init.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_cache.c
+LD /home/liviu/mos/test-ds3231/build/objs/esptool2
+gcc -o /home/liviu/mos/test-ds3231/build/objs/esptool2 /home/liviu/mos/test-ds3231/build/objs/esptool2.o /home/liviu/mos/test-ds3231/build/objs/esptool2_elf.o
+  CP    /home/liviu/mos/test-ds3231/build/gen/conf0.json -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/ca-bundle/fs/ca.pem -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/fs/api_bitbang.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/fs/api_config.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/fs/api_events.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/fs/api_gpio.js -> /home/liviu/mos/test-ds3231/build/fs
+  CC    /home/liviu/mos/test-ds3231/src/main.c
+  CP    /home/liviu/.mos/libs/mjs/fs/api_grove.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/fs/api_http.js -> /home/liviu/mos/test-ds3231/build/fs
+  CC    ./src/core/memp.c
+  CC    /home/liviu/mos/test-ds3231/build/gen/mgos_deps_init.c
+  CP    /home/liviu/.mos/libs/mjs/fs/api_log.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/fs/api_net.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/fs/api_sys.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/fs/api_timer.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/fs/api_uart.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/fs/init.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/modules/mjs/mjs/lib/api_dataview.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/modules/mjs/mjs/lib/api_file.js -> /home/liviu/mos/test-ds3231/build/fs
+  CC    ./src/core/sys.c
+  CP    /home/liviu/.mos/modules/mjs/mjs/lib/api_math.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/i2c/mjs_fs/api_i2c.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/ds3231/mjs_fs/api_ds3231.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/rpc-common/mjs_fs/api_rpc.js -> /home/liviu/mos/test-ds3231/build/fs
+  CP    /home/liviu/.mos/libs/mjs/esp8266/fs/api_arch_uart.js -> /home/liviu/mos/test-ds3231/build/fs
+  CC    ./src/core/tcp_in.c
+  CP    /home/liviu/.mos/libs/mjs/esp8266/fs/api_esp8266.js -> /home/liviu/mos/test-ds3231/build/fs
+  CC    ./src/core/dns.c
+  CP    /home/liviu/mos/test-ds3231/fs/init.js -> /home/liviu/mos/test-ds3231/build/fs
+  CC    /home/liviu/.mos/libs/i2c/src/mgos_i2c.c
+  MKFS  /usr/local/bin/mkspiffs8 262144 4096 256 4096 /home/liviu/mos/test-ds3231/build/fs -> /home/liviu/mos/test-ds3231/build/objs/fw_temp/fs.bin
+  CC    /home/liviu/.mos/libs/i2c/src/common_gpio/mgos_i2c_gpio.c
+     FS params: size=262144, bs=4096, ps=256, es=4096
+       Adding ca.pem: 18826
+       Adding init.js: 506
+       Adding api_arch_uart.js: 651
+       Adding api_bitbang.js: 815
+       Adding api_uart.js: 5772
+       Adding api_file.js: 2105
+       Adding api_net.js: 5122
+       Adding api_math.js: 1890
+       Adding api_events.js: 3398
+       Adding api_esp8266.js: 231
+       Adding api_config.js: 2170
+       Adding api_log.js: 2005
+       Adding api_gpio.js: 3088
+       Adding api_ds3231.js: 6950
+       Adding api_i2c.js: 4880
+       Adding api_grove.js: 2327
+       Adding api_sys.js: 1641
+       Adding api_rpc.js: 2792
+       Adding api_http.js: 3812
+       Adding api_dataview.js: 7433
+       Adding api_timer.js: 1736
+       Adding conf0.json: 870
+     FS stats : space total=233681, used=87348, free=146333
+  CC    /home/liviu/.mos/libs/atca/src/mgos_atca.c
+  CC    ./src/core/def.c
+  CC    /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_cfgs.c
+  CC    ./src/core/raw.c
+  CC    ./src/core/tcp.c
+  CC    /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_command.c
+  CC    ./src/core/sntp.c
+  CC    /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_device.c
+  CC    /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_iface.c
+  CC    /home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic/atca_basic.c
+  CC    /home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic/atca_helpers.c
+  CC    ./src/core/pbuf.c
+  CC    ./src/core/netif.c
+  CC    /home/liviu/.mos/libs/atca/cryptoauthlib/lib/host/atca_host.c
+  CC    /home/liviu/.mos/libs/vfs-common/src/mgos_vfs.c
+  CC    ./src/core/stats.c
+  CC    ./src/core/timers.c
+  CC    ./src/core/mdns.c
+  CC    ./src/core/tcp_out.c
+  CC    ./src/core/udp.c
+  CC    ./src/core/ipv4/ip_frag.c
+  CC    ./src/core/ipv4/inet.c
+  CC    ./src/core/ipv4/ip_addr.c
+  CC    ./src/core/ipv4/igmp.c
+  CC    /home/liviu/.mos/libs/vfs-common/src/mgos_vfs_dev.c
+  CC    /home/liviu/.mos/libs/vfs-common/src/mgos_vfs_internal.c
+  CC    ./src/core/ipv4/ip.c
+  CC    ./src/core/ipv4/autoip.c
+  CC    /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_flash_writer.c
+  CC    ./src/core/ipv4/inet_chksum.c
+  CC    ./src/core/ipv4/icmp.c
+  CC    /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_fs.c
+  CC    /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c
+  CC    ./src/api/netdb.c
+  CC    ./src/api/api_lib.c
+  CC    /home/liviu/.mos/libs/vfs-dev-part/src/mgos_vfs_dev_part.c
+  CC    ./src/api/netifapi.c
+  CC    ./src/api/tcpip.c
+  CC    ./src/api/netbuf.c
+  CC    ./src/api/err.c
+  CC    /home/liviu/.mos/libs/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
+  CC    ./src/api/api_msg.c
+  CC    ./src/api/sockets.c
+  CC    ./espressif/app/espconn.c
+  CC    ./espressif/app/espconn_buf.c
+  CC    /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
+  CC    ./espressif/app/netio.c
+  CC    /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_check.c
+  CC    ./espressif/app/espconn_tcp.c
+  CC    ./espressif/app/ping.c
+  CC    /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
+  CC    ./espressif/app/dhcpserver.c
+  CC    ./espressif/app/espconn_mdns.c
+  CC    ./espressif/app/espconn_udp.c
+  CC    /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
+  AR /home/liviu/mos/test-ds3231/build/objs/lwip/liblwip_cs.a
+make[1]: Leaving directory '/opt/Espressif/cs_lwip'
+  CC    /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
+  CC    /home/liviu/.mos/libs/core/src/mgos_core.c
+  CC    /home/liviu/.mos/libs/core/src/esp8266/esp_rboot.c
+  CC    /home/liviu/.mos/libs/ds3231/src/mgos_ds3231.c
+  CC    /home/liviu/.mos/libs/mjs/src/mos_mjs.c
+  CC    /home/liviu/.mos/modules/mjs/mjs.c
+  CC    /home/liviu/.mos/libs/mjs/esp8266/src/esp8266_mjs.c
+  CC    /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc.c
+  CC    /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c
+  CC    /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c
+  CC    /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c
+  CC    /home/liviu/.mos/libs/rpc-common/src/mgos_rpc.c
+  CC    /home/liviu/.mos/libs/rpc-service-config/src/mgos_service_config.c
+  CC    /home/liviu/.mos/libs/rpc-service-fs/src/mgos_service_filesystem.c
+  CC    /home/liviu/.mos/libs/rpc-uart/src/mgos_rpc_channel_uart.c
+  CC    /home/liviu/mos/test-ds3231/build/gen/ffi_exports.c
+  CC    /mongoose-os/common/cs_file.c
+  CC    /mongoose-os/common/cs_rbuf.c
+  CC    /mongoose-os/fw/src/mgos_config_util.c
+  CC    /mongoose-os/fw/src/mgos_core_dump.c
+  CC    /mongoose-os/fw/src/mgos_dlsym.c
+  CC    /mongoose-os/fw/src/mgos_event.c
+  CC    /mongoose-os/fw/src/mgos_gpio.c
+  CC    /mongoose-os/fw/src/mgos_hw_timers.c
+  CC    /mongoose-os/fw/src/mgos_init.c
+  CC    /mongoose-os/fw/src/mgos_time.c
+  CC    /mongoose-os/fw/src/mgos_timers.c
+  CC    /mongoose-os/fw/src/mgos_mmap_esp.c
+  CC    /mongoose-os/fw/src/mgos_sys_config.c
+  CC    /home/liviu/mos/test-ds3231/build/gen/mgos_config.c
+  CC    /home/liviu/mos/test-ds3231/build/gen/mgos_ro_vars.c
+  CC    /mongoose-os/fw/src/mgos_system.c
+  CC    /mongoose-os/fw/src/mgos_uart.c
+  CC    /mongoose-os/fw/src/mgos_utils.c
+  CC    /mongoose-os/common/cs_crc32.c
+  CC    /mongoose-os/common/platforms/esp8266/rboot/rboot/appcode/rboot-bigflash.c
+  CC    /mongoose-os/common/platforms/esp8266/rboot/rboot/appcode/rboot-api.c
+  CC    /mongoose-os/common/json_utils.c
+  CC    /mongoose-os/common/umm_malloc/umm_malloc.c
+  CC    /mongoose-os/frozen/frozen.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_config.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_coredump.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_debug.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_exc.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_gpio.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_hal.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_heap_trace.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_hw_timers.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_hw_wdt.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_libc.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_main.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_periph.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_uart.c
+  CC    /mongoose-os/common/platforms/esp8266/esp_crypto.c
+  CC    /mongoose-os/common/platforms/esp8266/esp_umm_malloc.c
+  CC    /mongoose-os/fw/src/mgos_debug.c
+  CC    /mongoose-os/fw/src/mgos_net.c
+  CC    /mongoose-os/fw/src/mgos_bitbang.c
+  CC    /mongoose-os/fw/platforms/esp8266/src/esp_exc_non_os.c
+  AS    /mongoose-os/fw/platforms/esp8266/src/esp_exc_vectors.S -> /home/liviu/mos/test-ds3231/build/objs/esp_exc_vectors.S.o
+  AS    /mongoose-os/fw/platforms/esp8266/src/esp_nsleep100.S -> /home/liviu/mos/test-ds3231/build/objs/esp_nsleep100.S.o
+CC rboot-stage2a.c
+LD /home/liviu/mos/test-ds3231/build/objs/rboot/rboot-stage2a.elf
+E2 /home/liviu/mos/test-ds3231/build/gen/rboot-hex2a.h
+CC rboot.c
+  AR    /home/liviu/mos/test-ds3231/build/objs/mongoose-os.a
+  GEN   /home/liviu/mos/test-ds3231/build/gen/mg_build_info.c
+LD /home/liviu/mos/test-ds3231/build/objs/rboot/rboot.elf
+E2 /home/liviu/mos/test-ds3231/build/objs/rboot/rboot.bin
+fatal: No names found, cannot describe anything.
+  CC    /home/liviu/mos/test-ds3231/build/gen/mg_build_info.c
+  GEN   /home/liviu/mos/test-ds3231/build/gen/build_info.c
+fatal: No names found, cannot describe anything.
+  CC    /home/liviu/mos/test-ds3231/build/gen/build_info.c
+  LD    /home/liviu/mos/test-ds3231/build/objs/test-ds3231.elf
+  Generating breakdown
+  FW    /home/liviu/mos/test-ds3231/build/objs/test-ds3231.elf -> /home/liviu/mos/test-ds3231/build/objs/test-ds3231.bin
+  GEN    /home/liviu/mos/test-ds3231/build/objs/fw_temp/manifest.json
+  ZIP    /home/liviu/mos/test-ds3231/build/fw/test-ds3231-esp8266-last.zip
+     Adding /home/liviu/mos/test-ds3231/build/objs/fw_temp/esp_init_data_default_v08.bin
+     Adding /home/liviu/mos/test-ds3231/build/objs/fw_temp/fs.bin
+     Adding /home/liviu/mos/test-ds3231/build/objs/fw_temp/rboot.bin
+     Adding /home/liviu/mos/test-ds3231/build/objs/fw_temp/test-ds3231.bin
+  Built test-ds3231/esp8266 version 1.0 (20181003-063117)
+make: Leaving directory '/app'
+Success, built test-ds3231/esp8266 version 1.0 (20181003-063117).
+Firmware saved to build/fw.zip

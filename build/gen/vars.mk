@@ -1,0 +1,35 @@
+APP=test-ds3231
+APP_BIN_LIBS=/home/liviu/.mos/libs/mbedtls/lib/esp8266/libmbedtls.a /home/liviu/.mos/libs/mongoose/lib/esp8266/libmongoose.a
+APP_CFLAGS=-DMBEDTLS_ECP_ATCA=1 -DMBEDTLS_X509_CA_CHAIN_ON_DISK=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_ATCA=1 -DMGOS_HAVE_CA_BUNDLE=1 -DMGOS_HAVE_CORE=1 -DMGOS_HAVE_DS3231=1 -DMGOS_HAVE_I2C=1 -DMGOS_HAVE_MBEDTLS=1 -DMGOS_HAVE_MJS=1 -DMGOS_HAVE_MONGOOSE=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_VFS_COMMON=1 -DMGOS_HAVE_VFS_DEV_PART=1 -DMGOS_HAVE_VFS_FS_SPIFFS=1 -DMGOS_HAVE_ZZ_BOARDS=1 -DMG_ENABLE_DNS=1 -DMG_ENABLE_DNS_SERVER=1 -DMG_ENABLE_MQTT=1 -DMG_ENABLE_SNTP=1 -DMG_ENABLE_SSL=1 -DMG_SSL_IF=MG_SSL_IF_MBEDTLS -DMG_SSL_IF_MBEDTLS_FREE_CERTS=1 -DMG_SSL_IF_MBEDTLS_MAX_FRAG_LEN=1024
+APP_CONF_SCHEMA=/home/liviu/mos/test-ds3231/build/gen/mos_conf_schema.yml
+APP_CXXFLAGS=-DMBEDTLS_ECP_ATCA=1 -DMBEDTLS_X509_CA_CHAIN_ON_DISK=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_ATCA=1 -DMGOS_HAVE_CA_BUNDLE=1 -DMGOS_HAVE_CORE=1 -DMGOS_HAVE_DS3231=1 -DMGOS_HAVE_I2C=1 -DMGOS_HAVE_MBEDTLS=1 -DMGOS_HAVE_MJS=1 -DMGOS_HAVE_MONGOOSE=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_VFS_COMMON=1 -DMGOS_HAVE_VFS_DEV_PART=1 -DMGOS_HAVE_VFS_FS_SPIFFS=1 -DMGOS_HAVE_ZZ_BOARDS=1 -DMG_ENABLE_DNS=1 -DMG_ENABLE_DNS_SERVER=1 -DMG_ENABLE_MQTT=1 -DMG_ENABLE_SNTP=1 -DMG_ENABLE_SSL=1 -DMG_SSL_IF=MG_SSL_IF_MBEDTLS -DMG_SSL_IF_MBEDTLS_FREE_CERTS=1 -DMG_SSL_IF_MBEDTLS_MAX_FRAG_LEN=1024
+APP_FS_FILES=/home/liviu/.mos/libs/ca-bundle/fs/ca.pem /home/liviu/.mos/libs/mjs/fs/api_bitbang.js /home/liviu/.mos/libs/mjs/fs/api_config.js /home/liviu/.mos/libs/mjs/fs/api_events.js /home/liviu/.mos/libs/mjs/fs/api_gpio.js /home/liviu/.mos/libs/mjs/fs/api_grove.js /home/liviu/.mos/libs/mjs/fs/api_http.js /home/liviu/.mos/libs/mjs/fs/api_log.js /home/liviu/.mos/libs/mjs/fs/api_net.js /home/liviu/.mos/libs/mjs/fs/api_sys.js /home/liviu/.mos/libs/mjs/fs/api_timer.js /home/liviu/.mos/libs/mjs/fs/api_uart.js /home/liviu/.mos/libs/mjs/fs/init.js /home/liviu/.mos/modules/mjs/mjs/lib/api_dataview.js /home/liviu/.mos/modules/mjs/mjs/lib/api_file.js /home/liviu/.mos/modules/mjs/mjs/lib/api_math.js /home/liviu/.mos/libs/i2c/mjs_fs/api_i2c.js /home/liviu/.mos/libs/ds3231/mjs_fs/api_ds3231.js /home/liviu/.mos/libs/rpc-common/mjs_fs/api_rpc.js /home/liviu/.mos/libs/mjs/esp8266/fs/api_arch_uart.js /home/liviu/.mos/libs/mjs/esp8266/fs/api_esp8266.js /home/liviu/mos/test-ds3231/fs/init.js
+APP_INCLUDES=/home/liviu/.mos/libs/i2c/include /home/liviu/.mos/libs/atca/include /home/liviu/.mos/libs/atca/cryptoauthlib/lib /home/liviu/.mos/libs/mbedtls/include /home/liviu/.mos/libs/mbedtls/include/esp8266 /home/liviu/.mos/libs/mbedtls/mbedtls/include /home/liviu/.mos/libs/vfs-common/include /home/liviu/.mos/libs/vfs-common/include/esp8266 /home/liviu/.mos/libs/mongoose/include /home/liviu/.mos/libs/vfs-dev-part/include /home/liviu/.mos/libs/vfs-fs-spiffs/include /home/liviu/.mos/libs/vfs-fs-spiffs/include/spiffs /home/liviu/.mos/libs/vfs-fs-spiffs/include/esp8266 /home/liviu/.mos/libs/core/include /home/liviu/.mos/libs/core/include/esp8266 /home/liviu/.mos/libs/ds3231/include /home/liviu/.mos/libs/mjs/include /home/liviu/.mos/libs/rpc-common/include/mg_rpc /home/liviu/.mos/libs/rpc-common/include /home/liviu/.mos/libs/rpc-service-config/include /home/liviu/.mos/libs/rpc-service-fs/include /home/liviu/.mos/libs/rpc-uart/include
+APP_SOURCES=/home/liviu/mos/test-ds3231/src/main.c /home/liviu/mos/test-ds3231/build/gen/mgos_deps_init.c /home/liviu/.mos/libs/i2c/src/mgos_i2c.c /home/liviu/.mos/libs/i2c/src/common_gpio/mgos_i2c_gpio.c /home/liviu/.mos/libs/atca/src/mgos_atca.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_cfgs.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_command.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_device.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/atca_iface.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic/atca_basic.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/basic/atca_helpers.c /home/liviu/.mos/libs/atca/cryptoauthlib/lib/host/atca_host.c /home/liviu/.mos/libs/vfs-common/src/mgos_vfs.c /home/liviu/.mos/libs/vfs-common/src/mgos_vfs_dev.c /home/liviu/.mos/libs/vfs-common/src/mgos_vfs_internal.c /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_flash_writer.c /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_fs.c /home/liviu/.mos/libs/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c /home/liviu/.mos/libs/vfs-dev-part/src/mgos_vfs_dev_part.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_cache.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_check.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_gc.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c /home/liviu/.mos/libs/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c /home/liviu/.mos/libs/core/src/mgos_core.c /home/liviu/.mos/libs/core/src/esp8266/esp_rboot.c /home/liviu/.mos/libs/ds3231/src/mgos_ds3231.c /home/liviu/.mos/libs/mjs/src/mos_mjs.c /home/liviu/.mos/modules/mjs/mjs.c /home/liviu/.mos/libs/mjs/esp8266/src/esp8266_mjs.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /home/liviu/.mos/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /home/liviu/.mos/libs/rpc-common/src/mgos_rpc.c /home/liviu/.mos/libs/rpc-service-config/src/mgos_service_config.c /home/liviu/.mos/libs/rpc-service-fs/src/mgos_service_filesystem.c /home/liviu/.mos/libs/rpc-uart/src/mgos_rpc_channel_uart.c
+APP_VERSION=1.0
+BOARD=
+BUILD_DIR=/home/liviu/mos/test-ds3231/build/objs
+FFI_SYMBOLS=
+FS_STAGING_DIR=/home/liviu/mos/test-ds3231/build/fs
+FW_DIR=/home/liviu/mos/test-ds3231/build/fw
+GEN_DIR=/home/liviu/mos/test-ds3231/build/gen
+MANIFEST_FINAL=/home/liviu/mos/test-ds3231/build/gen/mos_final.yml
+MGOS_ENABLE_I2C_GPIO=1
+MGOS_HAVE_ATCA=1
+MGOS_HAVE_CA_BUNDLE=1
+MGOS_HAVE_CORE=1
+MGOS_HAVE_DS3231=1
+MGOS_HAVE_I2C=1
+MGOS_HAVE_MBEDTLS=1
+MGOS_HAVE_MJS=1
+MGOS_HAVE_MONGOOSE=1
+MGOS_HAVE_RPC_COMMON=1
+MGOS_HAVE_RPC_SERVICE_CONFIG=1
+MGOS_HAVE_RPC_SERVICE_FS=1
+MGOS_HAVE_RPC_UART=1
+MGOS_HAVE_VFS_COMMON=1
+MGOS_HAVE_VFS_DEV_PART=1
+MGOS_HAVE_VFS_FS_SPIFFS=1
+MGOS_HAVE_ZZ_BOARDS=1
+MGOS_PATH=/mongoose-os
+PLATFORM=esp8266
